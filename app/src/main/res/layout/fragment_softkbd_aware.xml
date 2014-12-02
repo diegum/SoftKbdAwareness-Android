@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/touchable_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity$PlaceholderFragment">
+
+    <FrameLayout
+        android:id="@+id/touchable_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/frame_lateral_margin"
+        android:layout_marginRight="@dimen/frame_lateral_margin"
+        android:background="@drawable/frame_background">
+
+        <EditText
+            android:id="@+id/editable_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/hello_world"
+            android:textSize="@dimen/text_size_kbd_off"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

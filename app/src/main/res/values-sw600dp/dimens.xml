@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="text_size_kbd_off">76sp</dimen>
+    <dimen name="frame_lateral_margin">19dp</dimen>
+</resources>
